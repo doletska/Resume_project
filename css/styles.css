@@ -1,0 +1,297 @@
+body{
+    background:white;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul, 
+ol{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.wrapper{
+    background: white;
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+/* main_content */
+.main_content{
+padding-left: 88px;
+padding-top: 80px;
+padding-right: 40px;
+padding-bottom: 80px;
+box-sizing: border-box;
+}
+
+/* sidebar */
+.sidebar{
+background: #d0def5;
+padding-top: 40px;
+padding-bottom: 40px;
+box-sizing: border-box;
+width: 370px;
+}
+.sidebar_content{
+padding-left: 40px;
+padding-top: 40px;
+padding-right: 40px;
+box-sizing: border-box;
+}
+
+/* contacts */
+.contacts_title{
+color: #161D2A;
+font-size: 22px;
+font-weight: 700;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 8px;
+}
+.contacts_type{
+color: #161D2A;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+margin-right: 8px;
+}
+.contacts_linc{
+color: #2770ec;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-decoration-line: underline;
+}
+.contacts_item{
+margin-top: 0;
+margin-bottom: 4px;
+}
+.contacts_container{
+    margin-bottom: 40px;
+}
+
+/* skills_container*/
+
+.skills_container{
+margin-bottom: 40px;
+}
+.skills_title{
+color: #161D2A;
+font-size: 22px;
+font-weight: 700;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 8px;
+}
+.skills_list{
+padding-left: 16px;
+}
+.skills_list_item{
+color: #161D2A;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+
+ /*  main_content*/
+
+
+ 
+.my_profession{
+color: #000;
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+margin-top: 0;
+margin-bottom: 8px;
+}
+
+.my_name{
+color: #000;
+font-size: 45px;
+font-weight: 700;
+line-height: 55px;
+margin-top: 0;
+margin-bottom: 12px;
+}
+
+.my_desc{
+color: #595959;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.my_info{
+    margin-bottom: 40px;
+}
+
+/* my_projects */
+
+.my_projects_title{
+color: #000;
+font-size: 22px;
+font-weight: 700;
+line-height: 27px;
+margin-top: 0;
+margin-bottom: 8px;
+}
+
+.my_projects_item{
+color: #000;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+}
+
+.my_projects_list {
+    padding-left: 16px;
+}
+
+.my_projects_item_link{
+color: #005FFF;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-decoration-line: underline;
+}
+.my_projects_item_tech{
+color: #595959;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+.my_projects_container{
+margin-bottom: 40px; 
+}
+/* work_experience */
+.work_experience_title{
+color: #000;
+font-size: 22px;
+font-weight: 700;
+line-height: 27px;
+margin-top: 0;
+margin-bottom: 8px;
+}
+.work_experience_company{
+color: #000;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+margin-top: 0;
+margin-bottom: 12px;
+}
+.company_name{
+color: #426bbe;
+}
+.work_experience_period{
+color: #A8A8A8;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+margin-bottom: 8px;
+}
+.work_experience_period_separator{
+color: #000;
+}
+.work_experience_duties_list{
+padding-left: 16px;
+}
+.work_experience_duties_item{
+color: #595959;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+.work_experience_container{
+    margin-bottom: 12px;
+}
+/* education */
+.education_title{
+color: #000;
+font-size: 22px;
+font-weight: 700;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 8px;
+}
+.education_company{
+color: #426bbe;
+font-size: 16px;
+font-weight: 700;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 4px;
+}
+.education_speciality{
+color: #000;
+font-size: 14px;
+font-weight: 700;
+line-height: normal;
+margin-top: 0;
+ margin-bottom: 4px;
+}
+.education_period{
+ color: #A8A8A8;
+font-size: 12px;
+font-weight: 400;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 8px;
+}
+.education_container{
+    margin-top: 40px;
+}
+@media screen and (max-width: 960px) {
+    body {
+        padding: 20px 20px 20px 20px;
+    }
+    .main_content {
+        padding: 40px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .sidebar {
+        width: 250px;
+    }
+    .my_photo {
+        width: 250px;
+    }
+    .sidebar_content{
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 600px) {
+    body{
+        padding: 0;
+    }
+    .sidebar {
+         width: 200px;
+    }
+    .my_photo {
+         width: 200px;
+    }
+    .main_content {
+        padding: 20px;
+    }
+    .my_name {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 510px) {
+    .wrapper{
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100%;
+    }
+    .my_photo {
+        width: 100%;
+    }
+}
